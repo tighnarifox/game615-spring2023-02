@@ -34,6 +34,7 @@ public class colorchanges : MonoBehaviour
             rigid.useGravity = true;
             rigid.AddForce(gameObject.transform.forward * launchforce);
             transform.Translate(Vector3.down * fallingspeed * Time.deltaTime, Space.World);
+            Debug.Log("It's raining cats");
         }
 
     
